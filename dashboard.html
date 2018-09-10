@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+  <meta charset="utf-8">
+  <title>Line chart</title>
+  <link rel="stylesheet" type="text/css" href="css/dc.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    div {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    div#chart svg g g.axis g.tick text{
+      font-size: 16pt;
+    }
+  </style>
+</head>
+<body>
+  <h2>Outages-Last 30 Days</h2>
+  <div id="chart"><h3>Day of the Week</h3></div>
+
+  <div id="quarter" ><h3>Causes</h3></div>
+  <div class = "container">
+  <div id="chart1"><h3>Customers Out</h3></div>
+  <div id="rangechart"></div>
+</div>
+  <div class = "container">
+    <h3>Outage Data</h3>
+    <div class ="dc-data-count"><span class="filter-count"></span> selected out of <span class="total-count"></span> records.
+      <a href="javascript:dc.filterAll(); dc.renderAll();"> Reset All</a>
+    </div>
+  <table id="table" class="table table-hover"></table>
+  </div>
+  <script type="text/javascript" src="js/d3.js"></script>
+  <script type="text/javascript" src="js/crossfilter.js"></script>
+  <script type="text/javascript" src="js/dc.js"></script>
+
+  <script type="text/javascript">
+
+
+
+
+d3.json("data/outages30Day.js", function(data) {
+
+
+
+function print_filter(filter) {
+    var f=eval(filter);
+    if (typeof(f.length) != "undefined") {}else{}
+    if (typeof(f.top) != "undefined") {f=f.top(Infinity);}else{}
+    if (typeof(f.dimension) != "undefined") {f=f.dimension(function(d) { return "";}).top(Infinity);}else{}
+    console.log(filter+"("+f.length+") = "+JSON.stringify(f).replace("[","[\n\t").replace(/}\,/g,"},\n\t").replace("]","\n]"));
+  }
+
+
+
+data.features.forEach(function(d){
+  // console.log(d.properties.StartTime);
+  var tempDate = new Date(d.properties.StartTime);
+  d.date = tempDate;
+
+//console.log(typeof d.properties.StartTime);
+//console.log(tempDate);
+console.log(d.date);
+
+});
+
+
+var facts = crossfilter(data.features);
+var all = facts.groupAll(); //reduces all rows into one.
+
+
+
+var dateDimension = facts.dimension(function(d){return d.date});
+var dateGroup = dateDimension.group().reduceSum(function(d){return d.properties.CustomersAffected});
+
+
+
+var outageGroup = dateDimension.group();
+
+
+// Counts per weekday
+var dayOfWeek = facts.dimension(function(d) {
+  var day = d.date.getDay();
+  var name = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  return day + '.' + name[day];
+});
+var dayOfWeekGroup = dayOfWeek.group();
+
+
+
+var minDate = dateDimension.bottom(1)[0].date;
+var maxDate = dateDimension.top(1)[0].date;
+
+//var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' ,hour: 'numeric', minute: 'numeric'};
+var options = {year: 'numeric', month: 'long', day: 'numeric' ,hour: 'numeric', minute: 'numeric'};
+
+//outage causes
+var causeDimension = facts.dimension(function(d){return d.properties.Cause});
+var causeGroup = causeDimension.group();
+
+
+
+var dataCount = dc.dataCount(".dc-data-count")
+  .dimension(facts)
+  .group(all)
+  .html({
+    some:'<strong>%filter-count</strong> selected out of <strong>%total-count</strong> records | <a href="javascript:dc.filterAll(); dc.renderAll();"> Reset All</a>',
+    all:  'All records selected.Please click on a graph to apply filters.'
+});
+
+
+//table
+var dataTable = dc.dataTable("#table")
+  .width(900)
+  .height(300)
+  .dimension(dateDimension)
+  .showGroups(false)
+  //.size(10)
+  .group(function(d){return console.log(d); })
+  .columns([{label:'StartTime',format: function(d){return d.date.toLocaleDateString('en-US', options)}},
+            {label:'Substation',format: function(d){return d.properties.Substation}},
+            {label:'Feeder',format: function(d){return d.properties.Feeder}},
+            {label:'Cause',format: function(d){return d.properties.Cause}},
+            {label:'# Out',format: function(d){return d.properties.CustomersAffected}}
+            ])
+  .sortBy(function(d){return d.date})
+  .order(d3.ascending)
+  .on("renderlet",function(table){
+    table.selectAll('.dc-table-group').classed('info',true);
+  });
+
+//bar chart
+var barchart = dc.barChart("#rangechart")
+    .height(75)
+    .width(1100)
+    .margins({top:10,bottom:30,right:10,left:70})
+    .dimension(dateDimension)
+    .group(outageGroup)
+    .x(d3.time.scale().domain([minDate,maxDate]));
+
+    barchart.yAxis().ticks(0).outerTickSize(0);
+    barchart.xAxis().ticks(7);
+
+
+//line chart
+var lineChart = dc.lineChart("#chart1")
+    .width(1100)
+    .height(200)
+    .margins({top:10,bottom:30,right:10,left:70})
+    .dimension(dateDimension)
+    .group(dateGroup,"Customers Out")
+    // .stack(dateGroupCust,"Customers Out")
+    .yAxisLabel("Transaction spend")
+    .elasticY(true)
+    .renderHorizontalGridLines(true)
+    .renderArea(true)
+    .legend(dc.legend().x(800).y(5).itemHeight(12).gap(5))
+    .x(d3.time.scale().domain([minDate,maxDate]))
+    // .xyTipsOn(true)
+    .brushOn(false)
+
+    .rangeChart(barchart); //ties it to the chart above.
+    // .centerBar(true)
+    // .xUnits(dc.units.fp.precision(100));
+    // .barPadding(0.2)
+    // .outerPadding(0)
+
+
+    lineChart.yAxis().ticks(5);
+    lineChart.xAxis().ticks(7);
+
+/* dc.rowChart('#day-of-week-chart', 'chartGroup') */
+var dayOfWeekChart = dc.rowChart("#chart")
+      .width(250)
+      .height(180)
+      .margins({top: 20, left: 20, right: 10, bottom: 30})
+      .dimension(dayOfWeek)
+      .group(dayOfWeekGroup)
+      //.colors(d3.scale.category20())
+      .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'])
+      .renderLabel(true)
+      .label(function (d) {
+          return d.key.split('.')[1];
+      })
+      .renderTitle(true)
+      .title(function (d) {
+          return d.value;
+      })
+      .elasticX(true);
+
+    // handle axis functions separately
+    dayOfWeekChart.xAxis().ticks(4);
+
+//pie chart
+var quarterChart= dc.pieChart("#quarter")
+      .width(180)
+      .height(180)
+      .radius(80)
+      .innerRadius(30)
+      .drawPaths(true)
+      .renderLabel(false)
+      .colors(d3.scale.category20c())
+      .transitionDuration(800)
+      .dimension(causeDimension)
+      .group(causeGroup);
+
+
+
+
+dc.renderAll();
+
+//console.log(data);
+//console.log(facts);
+//console.log(dateDimension.top(10));
+//print_filter('dataTable');
+
+
+})
+  </script>
+
+</body>
+</html>
