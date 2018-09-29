@@ -1,0 +1,58 @@
+
+div {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div#chart svg g g.axis g.tick text{
+	font-size: 16pt;
+}
+
+.infoHeader{
+		color:Blue;
+		font-family: "PT Sans", Corbel,sans-serif;
+		font-size: 12px;
+		width: 100%;
+}
+#map {
+      width:600px;
+      height:400px;
+    }
+
+
+		body, html {
+			height: 100%;
+			margin: 0;
+			padding: 0;
+			font-family:  "PT Sans", sans-serif;
+		}
+
+		.dc-data-count small {
+		  font-size: 16px;
+		}
+
+		.container-fluid {
+		  padding-left: 40px;
+		  padding-right: 40px;
+		}
+
+		.pie-chart {
+		  height: 150px;
+		}
+
+		.dc-chart .axis text{
+		  font-size: 12px;
+		}
+
+		text {
+		  font-size: 16px;
+		}
+
+
+
+		#control-row {
+		  padding-bottom: 20px;
+		}
+
+		a { cursor: pointer }
