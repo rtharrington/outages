@@ -1,9 +1,13 @@
-var map =L.map('map').setView([35.162, -80.489], 8);
-var outages = new L.FeatureGroup();
+ $(document).ready(function() {
+
+var map =L.map('map').setView([35.162, -80.489], 7);
+var outages = new L.markerClusterGroup();
 
 L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
     }).addTo(map);
+
+
 
 
 d3.json("data/outages30Day.js", function(error, data) {
@@ -103,16 +107,12 @@ var dataTable = dc.dataTable("#table")
   //table.selectAll('.dc-table-group').classed('info',true);
    outages.clearLayers();
    allDim.top(Infinity).forEach(function (d) {
-     var options = {
-      fillColor: "#ff7800",
-      color: "#000",
-      weight: 1,
-      opacity: 1,
-      fillOpacity: 0.8
+     var marker = L.marker([+d.geometry.coordinates[1], +d.geometry.coordinates[0]]);
+     var popupContent = "<p>" + name + " " +  d.date +"</p>";
+     popupContent+="<p>" + d.properties.CustomersAffected + "</p>";
+     popupContent+="<p>"+d.properties.Feeder+d.properties.Cause+"</p>";
 
-    };
-     var marker = L.circleMarker([+d.geometry.coordinates[1], +d.geometry.coordinates[0]],options);
-     //console.log(marker);
+     marker.bindPopup(popupContent);
      outages.addLayer(marker);
    });
    map.addLayer(outages);
@@ -123,11 +123,12 @@ var dataTable = dc.dataTable("#table")
 
 //bar chart************************************
 var barchart = dc.barChart("#rangechart")
+  .width(800)
   .height(75)
-  .width(1100)
   .margins({top:10,bottom:30,right:10,left:70})
   .dimension(dateDimension)
   .group(dateGroup)
+
   .x(d3.time.scale().domain([minDate,maxDate]));
 
   barchart.yAxis().ticks(0).outerTickSize(0);
@@ -136,7 +137,7 @@ var barchart = dc.barChart("#rangechart")
 
 //line chart**********************************
 var lineChart = dc.lineChart("#chart1")
-  .width(1100)
+  .width(800)
   .height(200)
   .margins({top:10,bottom:30,right:10,left:70})
   .dimension(dateDimension)
@@ -200,12 +201,12 @@ var quarterChart= dc.pieChart("#quarter")
 
 //hour chart********************************
   var hourOfDayChart = dc.barChart("#hour-chart")
-      .width(500)
+      .width(550)
       .height(200)
       .margins({top: 0, left: 30, right: 10, bottom: 50})
       .dimension(hourOfDay)
       .group(hourOfDayGroup)
-      //.renderLabel(true)
+      .renderLabel(true)
       .elasticY(true)
       .yAxisLabel("Outages")
       .xAxisLabel("24-Hour Time")
@@ -220,8 +221,8 @@ var quarterChart= dc.pieChart("#quarter")
       .title(function (d) {
           return d.value;
       })
-      //.controlsUseVisibility(true)
       .brushOn(true);
+
 
 
 
@@ -263,4 +264,5 @@ dc.renderAll();
 print_filter('hourOfDayGroup');
 
 
+  });
 });

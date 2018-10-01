@@ -16,7 +16,7 @@ div#chart svg g g.axis g.tick text{
 		width: 100%;
 }
 #map {
-      width:600px;
+      width:100%;
       height:400px;
     }
 
@@ -50,6 +50,24 @@ div#chart svg g g.axis g.tick text{
 		}
 
 
+
+		tr {
+	width: 100%;
+	display: inline-table;
+	table-layout: fixed;
+	}
+
+	table{
+	 height:300px;              // <-- Select the height of the table
+	 display: -moz-groupbox;
+	 font-size: 12px;
+	}
+	tbody{
+	  overflow-y: scroll;
+	  height: 200px;            //  <-- Select the height of the body
+	  width: 100%;
+	  position: absolute;
+	}
 
 		#control-row {
 		  padding-bottom: 20px;
