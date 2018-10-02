@@ -9,6 +9,8 @@ div#chart svg g g.axis g.tick text{
 	font-size: 16pt;
 }
 
+
+
 .infoHeader{
 		color:Blue;
 		font-family: "PT Sans", Corbel,sans-serif;
@@ -18,7 +20,13 @@ div#chart svg g g.axis g.tick text{
 #map {
       width:100%;
       height:400px;
+			padding: 0;
+			border: 1px solid gray;
     }
+
+	#clusterMap {
+			padding: 0;
+		    }
 
 
 		body, html {
@@ -61,6 +69,7 @@ div#chart svg g g.axis g.tick text{
 	 height:300px;              // <-- Select the height of the table
 	 display: -moz-groupbox;
 	 font-size: 12px;
+
 	}
 	tbody{
 	  overflow-y: scroll;
@@ -69,8 +78,13 @@ div#chart svg g g.axis g.tick text{
 	  position: absolute;
 	}
 
-		#control-row {
-		  padding-bottom: 20px;
-		}
+#outageData{
+    margin-left: 20px;
+
+}
+
+#control-row {
+  padding-bottom: 20px;
+}
 
 		a { cursor: pointer }

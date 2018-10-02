@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+    <meta charset="utf-8">
+    <title>Outages-Last 30 Days</title>
+
+    <link rel="stylesheet" type="text/css" href="css/dc.css">
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="js/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="js/dist/MarkerCluster.Default.css" />
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <h1>Outages-Last 30 Days</h1>
+        
+        <div class="row">
+            <div class="col-sm-6 ">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h4>Day <small><a id="year">reset</a></small></h4>
+                        <div class="dc-chart" id="chart"></div>
+                    </div>
+
+                    <div class="col-sm-6" >
+                        <h4>Cause <small><a id="month" href="#">reset</a></small></h4>
+                        <div class="dc-chart" id="quarter">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h4>Hour <small><a id="hour">reset</a></small></h4>
+                            <div class="dc-chart" id="hour-chart">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6" id="clusterMap">
+                <h4>Outage Cluster Map</h4>
+                <div id="map"></div>
+            </div>
+
+        </div>
+    </div>--
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <div id="chart1">
+                    <h3>Customers Out</h3>
+                </div>
+                <div id="rangechart"></div>
+            </div>
+
+
+            <div class="col-sm-6">
+                <h3>Outage Data</h3>
+                <div class="dc-data-count"><span class="filter-count"></span> selected out of <span class="total-count"></span> records.
+                    <a href="javascript:dc.filterAll(); dc.renderAll();"> Reset All</a>
+                </div>
+                <table id="table" class="table table-hover table-responsive">
+                </table>
+
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/d3.js"></script>
+    <script type="text/javascript" src="js/crossfilter.js"></script>
+    <script type="text/javascript" src="js/dc.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/dist/leaflet.markercluster-src.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
