@@ -5,7 +5,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 2,
       "Feeder": "CKT5-04",
       "StartTime": "2018-09-16T03:03:52",
@@ -18,7 +18,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "420 Tree growth",
+      "Cause": "Tree growth",
       "CustomersAffected": 29,
       "Feeder": "CKT5-04",
       "StartTime": "2018-09-01T18:24:49",
@@ -31,7 +31,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 2,
       "Feeder": "CKT18-03",
       "StartTime": "2018-09-15T10:22:23",
@@ -44,7 +44,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 10,
       "Feeder": "CKT5-04",
       "StartTime": "2018-09-16T08:04:36",
@@ -57,7 +57,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "590 Weather, other",
+      "Cause": "Weather",
       "CustomersAffected": 24,
       "Feeder": "CKT6-04",
       "StartTime": "2018-09-16T10:15:21",
@@ -70,7 +70,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "590 Weather, other",
+      "Cause": "Weather",
       "CustomersAffected": 2,
       "Feeder": "CKT3-02",
       "StartTime": "2018-09-16T05:18:47",
@@ -83,7 +83,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "510 Wind, not trees",
+      "Cause": "Wind",
       "CustomersAffected": 11,
       "Feeder": "CKT4-03",
       "StartTime": "2018-09-16T19:20:18",
@@ -96,7 +96,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 12,
       "Feeder": "CKT12-01",
       "StartTime": "2018-09-15T21:17:26",
@@ -109,7 +109,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 19,
       "Feeder": "CKT12-01",
       "StartTime": "2018-09-15T21:17:26",
@@ -122,7 +122,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "400 Decay/age of material/equipment",
+      "Cause": "Decay/age of material/equipment",
       "CustomersAffected": 2,
       "Feeder": "CKT21-04",
       "StartTime": "2018-09-16T13:29:34",
@@ -135,7 +135,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 13,
       "Feeder": "CKT14-06",
       "StartTime": "2018-09-15T23:16:08",
@@ -148,7 +148,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 3,
       "Feeder": "CKT14-06",
       "StartTime": "2018-09-12T10:07:21",
@@ -161,7 +161,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 10,
       "Feeder": "CKT1-01",
       "StartTime": "2018-09-11T08:00:16",
@@ -174,7 +174,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 9,
       "Feeder": "CKT14-06",
       "StartTime": "2018-09-14T18:55:29",
@@ -187,7 +187,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 9,
       "Feeder": "CKT14-06",
       "StartTime": "2018-09-16T07:44:32",
@@ -200,7 +200,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 22,
       "Feeder": "CKT11-10",
       "StartTime": "2018-09-16T01:42:12",
@@ -213,7 +213,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 5,
       "Feeder": "CKT11-06",
       "StartTime": "2018-09-15T21:15:01",
@@ -226,7 +226,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 3,
       "Feeder": "CKT23-11",
       "StartTime": "2018-09-05T11:11:49",
@@ -239,7 +239,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 1,
       "Feeder": "CKT14-07",
       "StartTime": "2018-08-21T09:43:15",
@@ -252,7 +252,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 7,
       "Feeder": "CKT17-01",
       "StartTime": "2018-09-15T17:47:15",
@@ -265,7 +265,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 2,
       "Feeder": "CKT24-01",
       "StartTime": "2018-09-16T06:04:25",
@@ -278,7 +278,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "790 Public, other",
+      "Cause": "Public, other",
       "CustomersAffected": 7,
       "Feeder": "CKT11-05",
       "StartTime": "2018-09-07T08:24:37",
@@ -291,7 +291,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 11,
       "Feeder": "CKT8-03",
       "StartTime": "2018-08-20T12:32:27",
@@ -304,7 +304,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 11,
       "Feeder": "CKT8-03",
       "StartTime": "2018-09-14T12:59:36",
@@ -317,7 +317,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "400 Decay/age of material/equipment",
+      "Cause": "Decay/age of material/equipment",
       "CustomersAffected": 2,
       "Feeder": "CKT17-03",
       "StartTime": "2018-09-16T14:48:37",
@@ -330,7 +330,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 12,
       "Feeder": "CKT4-07",
       "StartTime": "2018-09-14T15:18:58",
@@ -343,7 +343,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 2,
       "Feeder": "CKT14-05",
       "StartTime": "2018-08-30T07:57:38",
@@ -356,7 +356,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "420 Tree growth",
+      "Cause": "Tree growth",
       "CustomersAffected": 1,
       "Feeder": "CKT17-01",
       "StartTime": "2018-09-15T12:07:04",
@@ -369,7 +369,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 3,
       "Feeder": "CKT5-01",
       "StartTime": "2018-09-14T18:17:08",
@@ -382,7 +382,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 4,
       "Feeder": "CKT14-06",
       "StartTime": "2018-09-10T17:57:17",
@@ -395,7 +395,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 4,
       "Feeder": "CKT14-06",
       "StartTime": "2018-09-14T18:21:42",
@@ -408,7 +408,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 50,
       "Feeder": "CKT14-05",
       "StartTime": "2018-09-16T02:02:47",
@@ -421,7 +421,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 2,
       "Feeder": "CKT14-08",
       "StartTime": "2018-09-09T12:35:16",
@@ -434,7 +434,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 4,
       "Feeder": "CKT12-07",
       "StartTime": "2018-09-16T11:12:03",
@@ -447,7 +447,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 34,
       "Feeder": "CKT19-02",
       "StartTime": "2018-08-30T17:31:28",
@@ -460,7 +460,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 2,
       "Feeder": "CKT19-02",
       "StartTime": "2018-08-23T07:52:10",
@@ -473,7 +473,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 15,
       "Feeder": "CKT19-03",
       "StartTime": "2018-09-15T17:44:58",
@@ -486,7 +486,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 6,
       "Feeder": "CKT19-03",
       "StartTime": "2018-09-16T02:27:27",
@@ -499,7 +499,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 35,
       "Feeder": "CKT24-03",
       "StartTime": "2018-09-14T18:23:53",
@@ -512,7 +512,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 35,
       "Feeder": "CKT24-03",
       "StartTime": "2018-09-15T21:47:50",
@@ -525,7 +525,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 39,
       "Feeder": "CKT19-03",
       "StartTime": "2018-09-15T12:28:45",
@@ -538,7 +538,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 15,
       "Feeder": "CKT19-03",
       "StartTime": "2018-09-15T06:12:04",
@@ -551,7 +551,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 5,
       "Feeder": "CKT19-05",
       "StartTime": "2018-08-24T17:08:15",
@@ -564,7 +564,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 2,
       "Feeder": "CKT19-07",
       "StartTime": "2018-09-02T07:23:15",
@@ -577,7 +577,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 14,
       "Feeder": "CKT19-07",
       "StartTime": "2018-09-15T17:15:46",
@@ -590,7 +590,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 1,
       "Feeder": "CKT24-02",
       "StartTime": "2018-09-12T12:00:43",
@@ -603,7 +603,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 10,
       "Feeder": "CKT24-02",
       "StartTime": "2018-09-15T16:15:31",
@@ -616,7 +616,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 15,
       "Feeder": "CKT18-01",
       "StartTime": "2018-09-16T02:48:01",
@@ -629,7 +629,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 22,
       "Feeder": "CKT18-02",
       "StartTime": "2018-09-09T15:35:15",
@@ -642,7 +642,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 35,
       "Feeder": "CKT18-02",
       "StartTime": "2018-09-15T07:14:38",
@@ -655,7 +655,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 3,
       "Feeder": "CKT18-03",
       "StartTime": "2018-09-16T09:57:39",
@@ -668,7 +668,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 29,
       "Feeder": "CKT18-03",
       "StartTime": "2018-09-14T19:34:17",
@@ -681,7 +681,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 15,
       "Feeder": "CKT23-07",
       "StartTime": "2018-09-16T02:21:00",
@@ -694,7 +694,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 2,
       "Feeder": "CKT23-07",
       "StartTime": "2018-09-16T00:24:25",
@@ -707,7 +707,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "300 Material or equipment fault/failure",
+      "Cause": "Material or equipment fault/failure",
       "CustomersAffected": 23,
       "Feeder": "CKT18-06",
       "StartTime": "2018-08-28T09:18:25",
@@ -720,7 +720,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT18-06",
       "StartTime": "2018-09-16T01:34:20",
@@ -733,7 +733,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 1,
       "Feeder": "CKT18-06",
       "StartTime": "2018-09-17T09:39:45",
@@ -746,7 +746,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 1,
       "Feeder": "CKT18-06",
       "StartTime": "2018-09-03T18:37:32",
@@ -759,7 +759,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 3,
       "Feeder": "CKT18-06",
       "StartTime": "2018-08-27T09:47:57",
@@ -772,7 +772,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 2,
       "Feeder": "CKT23-11",
       "StartTime": "2018-09-15T07:30:56",
@@ -785,7 +785,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 6,
       "Feeder": "CKT23-07",
       "StartTime": "2018-09-03T08:41:03",
@@ -798,7 +798,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 15,
       "Feeder": "CKT23-12",
       "StartTime": "2018-09-16T02:56:57",
@@ -811,7 +811,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 21,
       "Feeder": "CKT18-07",
       "StartTime": "2018-09-15T21:36:32",
@@ -824,7 +824,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 4,
       "Feeder": "CKT18-08",
       "StartTime": "2018-09-15T19:57:02",
@@ -837,7 +837,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 1,
       "Feeder": "CKT8-06",
       "StartTime": "2018-08-23T12:48:33",
@@ -850,7 +850,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 2,
       "Feeder": "CKT8-01",
       "StartTime": "2018-09-02T16:07:21",
@@ -863,7 +863,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "420 Tree growth",
+      "Cause": "Tree growth",
       "CustomersAffected": 4,
       "Feeder": "CKT8-01",
       "StartTime": "2018-09-15T10:01:20",
@@ -876,7 +876,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 5,
       "Feeder": "CKT8-01",
       "StartTime": "2018-09-15T19:34:26",
@@ -889,7 +889,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 40,
       "Feeder": "CKT8-01",
       "StartTime": "2018-09-16T05:54:18",
@@ -902,7 +902,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 14,
       "Feeder": "CKT8-02",
       "StartTime": "2018-09-16T07:41:03",
@@ -915,7 +915,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 21,
       "Feeder": "CKT8-02",
       "StartTime": "2018-09-16T01:35:43",
@@ -928,7 +928,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 25,
       "Feeder": "CKT8-03",
       "StartTime": "2018-08-23T08:49:45",
@@ -941,7 +941,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 12,
       "Feeder": "CKT8-03",
       "StartTime": "2018-09-16T04:13:53",
@@ -954,7 +954,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 12,
       "Feeder": "CKT8-06",
       "StartTime": "2018-09-10T16:30:12",
@@ -967,7 +967,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT13-01",
       "StartTime": "2018-09-17T08:58:33",
@@ -980,7 +980,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 47,
       "Feeder": "CKT13-03",
       "StartTime": "2018-09-16T00:03:34",
@@ -993,7 +993,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 8,
       "Feeder": "CKT13-03",
       "StartTime": "2018-08-21T18:46:10",
@@ -1006,7 +1006,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 31,
       "Feeder": "CKT13-04",
       "StartTime": "2018-09-15T11:39:54",
@@ -1019,7 +1019,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 14,
       "Feeder": "CKT13-01",
       "StartTime": "2018-09-16T01:25:25",
@@ -1032,7 +1032,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 11,
       "Feeder": "CKT13-02",
       "StartTime": "2018-09-16T01:11:32",
@@ -1045,7 +1045,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 8,
       "Feeder": "CKT17-02",
       "StartTime": "2018-09-15T20:35:45",
@@ -1058,7 +1058,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 9,
       "Feeder": "CKT17-02",
       "StartTime": "2018-09-15T08:56:58",
@@ -1071,7 +1071,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "300 Material or equipment fault/failure",
+      "Cause": "Material or equipment fault/failure",
       "CustomersAffected": 4,
       "Feeder": "CKT17-03",
       "StartTime": "2018-09-15T05:44:54",
@@ -1084,7 +1084,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 19,
       "Feeder": "CKT17-03",
       "StartTime": "2018-09-13T10:25:54",
@@ -1097,7 +1097,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 7,
       "Feeder": "CKT17-03",
       "StartTime": "2018-09-16T10:13:32",
@@ -1110,7 +1110,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 25,
       "Feeder": "CKT20-02",
       "StartTime": "2018-09-14T11:33:45",
@@ -1123,7 +1123,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 7,
       "Feeder": "CKT20-02",
       "StartTime": "2018-09-16T01:11:34",
@@ -1136,7 +1136,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 20,
       "Feeder": "CKT16-01",
       "StartTime": "2018-09-16T16:16:50",
@@ -1149,7 +1149,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 15,
       "Feeder": "CKT16-01",
       "StartTime": "2018-09-16T03:37:30",
@@ -1162,7 +1162,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 4,
       "Feeder": "CKT16-01",
       "StartTime": "2018-09-16T02:56:29",
@@ -1175,7 +1175,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 7,
       "Feeder": "CKT16-01",
       "StartTime": "2018-09-15T12:57:49",
@@ -1188,7 +1188,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT16-02",
       "StartTime": "2018-09-13T17:43:10",
@@ -1201,7 +1201,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 2,
       "Feeder": "CKT16-02",
       "StartTime": "2018-08-23T11:11:43",
@@ -1214,7 +1214,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 16,
       "Feeder": "CKT16-02",
       "StartTime": "2018-09-15T21:31:07",
@@ -1227,7 +1227,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 37,
       "Feeder": "CKT16-03",
       "StartTime": "2018-09-15T07:08:40",
@@ -1240,7 +1240,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 21,
       "Feeder": "CKT16-01",
       "StartTime": "2018-09-15T15:27:47",
@@ -1253,7 +1253,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "500 Lightning",
+      "Cause": "Lightning",
       "CustomersAffected": 5,
       "Feeder": "CKT16-01",
       "StartTime": "2018-08-21T21:15:52",
@@ -1266,7 +1266,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 5,
       "Feeder": "CKT16-01",
       "StartTime": "2018-09-16T00:03:40",
@@ -1279,7 +1279,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 5,
       "Feeder": "CKT16-01",
       "StartTime": "2018-09-16T15:52:53",
@@ -1292,7 +1292,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 2,
       "Feeder": "CKT16-02",
       "StartTime": "2018-09-14T21:23:35",
@@ -1305,7 +1305,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 27,
       "Feeder": "CKT16-02",
       "StartTime": "2018-09-15T23:21:14",
@@ -1318,7 +1318,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 2,
       "Feeder": "CKT16-02",
       "StartTime": "2018-09-15T00:51:10",
@@ -1331,7 +1331,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "590 Weather, other",
+      "Cause": "Weather",
       "CustomersAffected": 10,
       "Feeder": "CKT16-02",
       "StartTime": "2018-09-16T09:45:24",
@@ -1344,7 +1344,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 2,
       "Feeder": "CKT16-02",
       "StartTime": "2018-09-15T13:07:50",
@@ -1357,7 +1357,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 13,
       "Feeder": "CKT16-02",
       "StartTime": "2018-09-14T21:42:10",
@@ -1370,7 +1370,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT16-02",
       "StartTime": "2018-09-16T04:29:09",
@@ -1383,7 +1383,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 6,
       "Feeder": "CKT15-01",
       "StartTime": "2018-09-16T08:37:01",
@@ -1396,7 +1396,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 11,
       "Feeder": "CKT15-01",
       "StartTime": "2018-09-15T01:54:09",
@@ -1409,7 +1409,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 3,
       "Feeder": "CKT15-01",
       "StartTime": "2018-09-16T08:39:07",
@@ -1422,7 +1422,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 6,
       "Feeder": "CKT15-02",
       "StartTime": "2018-08-31T16:04:57",
@@ -1435,7 +1435,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT15-03",
       "StartTime": "2018-09-15T03:52:26",
@@ -1448,7 +1448,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 4,
       "Feeder": "CKT15-01",
       "StartTime": "2018-09-05T19:41:28",
@@ -1461,7 +1461,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 1,
       "Feeder": "CKT15-02",
       "StartTime": "2018-09-04T18:52:50",
@@ -1474,7 +1474,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 2,
       "Feeder": "CKT15-02",
       "StartTime": "2018-09-16T03:32:27",
@@ -1487,7 +1487,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 13,
       "Feeder": "CKT15-03",
       "StartTime": "2018-09-15T21:46:14",
@@ -1500,7 +1500,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 9,
       "Feeder": "CKT15-03",
       "StartTime": "2018-09-15T14:53:35",
@@ -1513,7 +1513,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 8,
       "Feeder": "CKT15-03",
       "StartTime": "2018-09-15T23:39:13",
@@ -1526,7 +1526,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 2,
       "Feeder": "CKT15-03",
       "StartTime": "2018-09-15T21:26:06",
@@ -1539,7 +1539,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 30,
       "Feeder": "CKT21-12",
       "StartTime": "2018-09-02T01:47:25",
@@ -1552,7 +1552,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 68,
       "Feeder": "CKT15-04",
       "StartTime": "2018-09-15T07:58:19",
@@ -1565,7 +1565,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 3,
       "Feeder": "CKT15-06",
       "StartTime": "2018-08-19T12:14:36",
@@ -1578,7 +1578,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 2,
       "Feeder": "CKT15-05",
       "StartTime": "2018-09-12T12:58:21",
@@ -1591,7 +1591,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "790 Public, other",
+      "Cause": "Public, other",
       "CustomersAffected": 12,
       "Feeder": "CKT23-03",
       "StartTime": "2018-09-16T15:36:44",
@@ -1604,7 +1604,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 26,
       "Feeder": "CKT23-04",
       "StartTime": "2018-09-15T20:41:38",
@@ -1617,7 +1617,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 17,
       "Feeder": "CKT21-12",
       "StartTime": "2018-09-05T11:46:14",
@@ -1630,7 +1630,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 17,
       "Feeder": "CKT21-12",
       "StartTime": "2018-09-14T09:41:45",
@@ -1643,7 +1643,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "420 Tree growth",
+      "Cause": "Tree growth",
       "CustomersAffected": 15,
       "Feeder": "CKT21-12",
       "StartTime": "2018-09-15T11:44:28",
@@ -1656,7 +1656,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "420 Tree growth",
+      "Cause": "Tree growth",
       "CustomersAffected": 29,
       "Feeder": "CKT21-12",
       "StartTime": "2018-09-15T08:03:21",
@@ -1669,7 +1669,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 12,
       "Feeder": "CKT23-03",
       "StartTime": "2018-09-15T23:36:07",
@@ -1682,7 +1682,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 3,
       "Feeder": "CKT21-09",
       "StartTime": "2018-08-27T08:06:20",
@@ -1695,7 +1695,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 6,
       "Feeder": "CKT21-09",
       "StartTime": "2018-09-16T17:39:52",
@@ -1708,7 +1708,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 2,
       "Feeder": "CKT12-07",
       "StartTime": "2018-09-16T03:18:19",
@@ -1721,7 +1721,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 7,
       "Feeder": "CKT12-07",
       "StartTime": "2018-09-14T18:13:46",
@@ -1734,7 +1734,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "510 Wind, not trees",
+      "Cause": "Wind",
       "CustomersAffected": 7,
       "Feeder": "CKT12-07",
       "StartTime": "2018-09-15T04:26:37",
@@ -1747,7 +1747,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 7,
       "Feeder": "CKT12-07",
       "StartTime": "2018-09-15T08:15:15",
@@ -1760,7 +1760,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 7,
       "Feeder": "CKT12-07",
       "StartTime": "2018-09-15T10:40:42",
@@ -1773,7 +1773,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 2,
       "Feeder": "CKT12-07",
       "StartTime": "2018-09-15T13:19:49",
@@ -1786,7 +1786,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 6,
       "Feeder": "CKT12-08",
       "StartTime": "2018-09-15T19:31:07",
@@ -1799,7 +1799,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 6,
       "Feeder": "CKT12-08",
       "StartTime": "2018-09-15T23:19:39",
@@ -1812,7 +1812,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 5,
       "Feeder": "CKT12-04",
       "StartTime": "2018-09-15T07:42:46",
@@ -1825,7 +1825,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 2,
       "Feeder": "CKT12-01",
       "StartTime": "2018-09-15T18:06:35",
@@ -1838,7 +1838,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 44,
       "Feeder": "CKT12-03",
       "StartTime": "2018-09-15T18:14:29",
@@ -1851,7 +1851,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 44,
       "Feeder": "CKT12-03",
       "StartTime": "2018-09-16T04:16:29",
@@ -1864,7 +1864,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "590 Weather, other",
+      "Cause": "Weather",
       "CustomersAffected": 44,
       "Feeder": "CKT12-03",
       "StartTime": "2018-09-16T10:34:10",
@@ -1877,7 +1877,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 7,
       "Feeder": "CKT12-03",
       "StartTime": "2018-09-15T02:26:42",
@@ -1890,7 +1890,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT12-03",
       "StartTime": "2018-09-16T12:12:43",
@@ -1903,7 +1903,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 7,
       "Feeder": "CKT12-01",
       "StartTime": "2018-09-15T05:13:18",
@@ -1916,7 +1916,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 7,
       "Feeder": "CKT12-01",
       "StartTime": "2018-09-16T01:28:42",
@@ -1929,7 +1929,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 8,
       "Feeder": "CKT5-03",
       "StartTime": "2018-09-16T19:19:03",
@@ -1942,7 +1942,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 14,
       "Feeder": "CKT5-03",
       "StartTime": "2018-09-10T11:23:43",
@@ -1955,7 +1955,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 1,
       "Feeder": "CKT5-02",
       "StartTime": "2018-09-03T11:57:23",
@@ -1968,7 +1968,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "300 Material or equipment fault/failure",
+      "Cause": "Material or equipment fault/failure",
       "CustomersAffected": 1,
       "Feeder": "CKT5-02",
       "StartTime": "2018-09-14T14:53:04",
@@ -1981,7 +1981,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT5-02",
       "StartTime": "2018-09-15T03:48:28",
@@ -1994,7 +1994,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 2,
       "Feeder": "CKT5-02",
       "StartTime": "2018-09-16T17:11:07",
@@ -2007,7 +2007,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 3,
       "Feeder": "CKT5-02",
       "StartTime": "2018-09-16T08:14:41",
@@ -2020,7 +2020,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 30,
       "Feeder": "CKT5-02",
       "StartTime": "2018-09-16T00:22:21",
@@ -2033,7 +2033,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 12,
       "Feeder": "CKT5-03",
       "StartTime": "2018-09-15T22:11:57",
@@ -2046,7 +2046,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "500 Lightning",
+      "Cause": "Lightning",
       "CustomersAffected": 25,
       "Feeder": "CKT5-03",
       "StartTime": "2018-09-01T17:47:51",
@@ -2059,7 +2059,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 35,
       "Feeder": "CKT5-03",
       "StartTime": "2018-09-14T22:02:24",
@@ -2072,7 +2072,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 5,
       "Feeder": "CKT5-03",
       "StartTime": "2018-09-16T16:54:09",
@@ -2085,7 +2085,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 3,
       "Feeder": "CKT5-03",
       "StartTime": "2018-09-16T10:16:43",
@@ -2098,7 +2098,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 2,
       "Feeder": "CKT5-04",
       "StartTime": "2018-09-11T09:29:09",
@@ -2111,7 +2111,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT5-04",
       "StartTime": "2018-09-14T15:54:06",
@@ -2124,7 +2124,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 1,
       "Feeder": "CKT4-10",
       "StartTime": "2018-09-05T16:43:59",
@@ -2137,7 +2137,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT5-04",
       "StartTime": "2018-09-14T21:50:28",
@@ -2150,7 +2150,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 8,
       "Feeder": "CKT5-04",
       "StartTime": "2018-09-15T16:56:00",
@@ -2163,7 +2163,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 1,
       "Feeder": "CKT3-01",
       "StartTime": "2018-08-28T19:16:24",
@@ -2176,7 +2176,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 10,
       "Feeder": "CKT3-02",
       "StartTime": "2018-09-15T11:56:19",
@@ -2189,7 +2189,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 5,
       "Feeder": "CKT3-02",
       "StartTime": "2018-09-14T22:41:24",
@@ -2202,7 +2202,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT3-02",
       "StartTime": "2018-09-15T10:10:07",
@@ -2215,7 +2215,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 1,
       "Feeder": "CKT3-02",
       "StartTime": "2018-09-02T14:15:44",
@@ -2228,7 +2228,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "500 Lightning",
+      "Cause": "Lightning",
       "CustomersAffected": 4,
       "Feeder": "CKT3-02",
       "StartTime": "2018-09-09T15:42:25",
@@ -2241,7 +2241,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 37,
       "Feeder": "CKT3-02",
       "StartTime": "2018-09-16T01:11:31",
@@ -2254,7 +2254,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT3-03",
       "StartTime": "2018-09-16T05:26:42",
@@ -2267,7 +2267,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 6,
       "Feeder": "CKT3-04",
       "StartTime": "2018-09-12T18:46:26",
@@ -2280,7 +2280,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 6,
       "Feeder": "CKT3-04",
       "StartTime": "2018-09-02T04:03:38",
@@ -2293,7 +2293,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 13,
       "Feeder": "CKT3-04",
       "StartTime": "2018-09-14T20:00:24",
@@ -2306,7 +2306,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 5,
       "Feeder": "CKT3-04",
       "StartTime": "2018-09-14T17:50:54",
@@ -2319,7 +2319,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 8,
       "Feeder": "CKT3-04",
       "StartTime": "2018-09-16T00:03:31",
@@ -2332,7 +2332,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 9,
       "Feeder": "CKT1-01",
       "StartTime": "2018-09-11T15:09:26",
@@ -2345,7 +2345,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 5,
       "Feeder": "CKT1-03",
       "StartTime": "2018-08-21T10:09:38",
@@ -2358,7 +2358,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "500 Lightning",
+      "Cause": "Lightning",
       "CustomersAffected": 5,
       "Feeder": "CKT1-02",
       "StartTime": "2018-08-31T00:56:12",
@@ -2371,7 +2371,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 1,
       "Feeder": "CKT1-02",
       "StartTime": "2018-08-20T17:22:11",
@@ -2384,7 +2384,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 1,
       "Feeder": "CKT1-02",
       "StartTime": "2018-09-09T10:08:52",
@@ -2397,7 +2397,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 8,
       "Feeder": "CKT2-02",
       "StartTime": "2018-09-16T08:45:45",
@@ -2410,7 +2410,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 5,
       "Feeder": "CKT2-02",
       "StartTime": "2018-08-26T16:25:26",
@@ -2423,7 +2423,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 3,
       "Feeder": "CKT2-02",
       "StartTime": "2018-08-20T17:43:31",
@@ -2436,7 +2436,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 3,
       "Feeder": "CKT2-01",
       "StartTime": "2018-09-14T19:36:15",
@@ -2449,7 +2449,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT2-02",
       "StartTime": "2018-09-15T11:46:56",
@@ -2462,7 +2462,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 36,
       "Feeder": "CKT4-07",
       "StartTime": "2018-09-14T22:58:43",
@@ -2475,7 +2475,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "500 Lightning",
+      "Cause": "Lightning",
       "CustomersAffected": 28,
       "Feeder": "CKT4-07",
       "StartTime": "2018-09-02T17:18:00",
@@ -2488,7 +2488,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 19,
       "Feeder": "CKT4-07",
       "StartTime": "2018-09-16T05:29:47",
@@ -2501,7 +2501,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 5,
       "Feeder": "CKT4-08",
       "StartTime": "2018-09-17T15:30:05",
@@ -2514,7 +2514,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 23,
       "Feeder": "CKT4-08",
       "StartTime": "2018-09-01T18:34:12",
@@ -2527,7 +2527,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 36,
       "Feeder": "CKT4-10",
       "StartTime": "2018-09-15T14:03:18",
@@ -2540,7 +2540,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 21,
       "Feeder": "CKT4-01",
       "StartTime": "2018-09-14T12:27:42",
@@ -2553,7 +2553,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 2,
       "Feeder": "CKT7-04",
       "StartTime": "2018-08-23T08:47:30",
@@ -2566,7 +2566,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 23,
       "Feeder": "CKT7-04",
       "StartTime": "2018-09-14T13:41:26",
@@ -2579,7 +2579,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 12,
       "Feeder": "CKT7-04",
       "StartTime": "2018-09-14T21:02:07",
@@ -2592,7 +2592,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "800 Other",
+      "Cause": "Other",
       "CustomersAffected": 2,
       "Feeder": "CKT6-05",
       "StartTime": "2018-09-06T00:04:50",
@@ -2605,7 +2605,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 5,
       "Feeder": "CKT6-01",
       "StartTime": "2018-09-03T18:50:44",
@@ -2618,7 +2618,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "300 Material or equipment fault/failure",
+      "Cause": "Material or equipment fault/failure",
       "CustomersAffected": 4,
       "Feeder": "CKT6-05",
       "StartTime": "2018-09-05T22:05:54",
@@ -2631,7 +2631,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 12,
       "Feeder": "CKT9-08",
       "StartTime": "2018-09-16T08:06:57",
@@ -2644,7 +2644,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 10,
       "Feeder": "CKT9-07",
       "StartTime": "2018-09-11T23:16:28",
@@ -2657,7 +2657,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 10,
       "Feeder": "CKT9-07",
       "StartTime": "2018-09-16T08:17:09",
@@ -2670,7 +2670,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 10,
       "Feeder": "CKT10-02",
       "StartTime": "2018-08-28T09:42:57",
@@ -2683,7 +2683,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 10,
       "Feeder": "CKT10-02",
       "StartTime": "2018-09-15T07:34:19",
@@ -2696,7 +2696,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 14,
       "Feeder": "CKT10-02",
       "StartTime": "2018-09-01T07:50:10",
@@ -2709,7 +2709,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 17,
       "Feeder": "CKT10-02",
       "StartTime": "2018-09-14T16:05:32",
@@ -2722,7 +2722,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 24,
       "Feeder": "CKT10-02",
       "StartTime": "2018-09-14T18:43:26",
@@ -2735,7 +2735,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "490 Maintenance, other",
+      "Cause": "Maintenance, other",
       "CustomersAffected": 13,
       "Feeder": "CKT11-06",
       "StartTime": "2018-09-14T09:36:43",
@@ -2748,7 +2748,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 3,
       "Feeder": "CKT22-03",
       "StartTime": "2018-08-31T16:28:18",
@@ -2761,7 +2761,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "420 Tree growth",
+      "Cause": "Tree growth",
       "CustomersAffected": 62,
       "Feeder": "CKT22-02",
       "StartTime": "2018-08-29T00:10:53",
@@ -2774,7 +2774,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT22-06",
       "StartTime": "2018-09-10T16:55:39",
@@ -2787,7 +2787,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 8,
       "Feeder": "CKT22-06",
       "StartTime": "2018-09-16T09:33:50",
@@ -2800,7 +2800,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "760 Switching error or caused by construction or maintenance",
+      "Cause": "Switching error or caused by construction or maintenance",
       "CustomersAffected": 39,
       "Feeder": "CKT22-05",
       "StartTime": "2018-09-11T09:50:10",
@@ -2813,7 +2813,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 1,
       "Feeder": "CKT22-09",
       "StartTime": "2018-08-24T07:59:26",
@@ -2826,7 +2826,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 2,
       "Feeder": "CKT11-02",
       "StartTime": "2018-09-15T21:35:03",
@@ -2839,7 +2839,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 2,
       "Feeder": "CKT11-03",
       "StartTime": "2018-09-16T11:59:23",
@@ -2852,7 +2852,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 3,
       "Feeder": "CKT11-06",
       "StartTime": "2018-09-15T04:17:18",
@@ -2865,7 +2865,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 13,
       "Feeder": "CKT11-06",
       "StartTime": "2018-09-10T16:23:58",
@@ -2878,7 +2878,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 13,
       "Feeder": "CKT11-06",
       "StartTime": "2018-09-14T07:24:41",
@@ -2891,7 +2891,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 13,
       "Feeder": "CKT11-06",
       "StartTime": "2018-09-14T18:29:35",
@@ -2904,7 +2904,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 1,
       "Feeder": "CKT11-07",
       "StartTime": "2018-08-22T08:48:52",
@@ -2917,7 +2917,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "800 Other",
+      "Cause": "Other",
       "CustomersAffected": 8,
       "Feeder": "CKT11-07",
       "StartTime": "2018-09-15T14:39:26",
@@ -2930,7 +2930,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "700 Customer-caused",
+      "Cause": "Customer-caused",
       "CustomersAffected": 1,
       "Feeder": "CKT19-03",
       "StartTime": "2018-09-10T15:24:51",
@@ -2943,7 +2943,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 23,
       "Feeder": "CKT19-02",
       "StartTime": "2018-09-14T18:39:37",
@@ -2956,7 +2956,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 2,
       "Feeder": "CKT15-02",
       "StartTime": "2018-09-16T12:35:59",
@@ -2969,7 +2969,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 24,
       "Feeder": "CKT12-03",
       "StartTime": "2018-09-14T21:51:25",
@@ -2982,7 +2982,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 4,
       "Feeder": "CKT3-01",
       "StartTime": "2018-09-15T13:43:16",
@@ -2995,7 +2995,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 12,
       "Feeder": "CKT9-08",
       "StartTime": "2018-09-16T10:12:19",
@@ -3008,7 +3008,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1206,
       "Feeder": "CKT12-01",
       "StartTime": "2018-09-16T19:52:21",
@@ -3021,7 +3021,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 777,
       "Feeder": "CKT18-10",
       "StartTime": "2018-09-15T19:45:32",
@@ -3034,7 +3034,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 533,
       "Feeder": "CKT19-02",
       "StartTime": "2018-09-15T23:56:40",
@@ -3047,7 +3047,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 1128,
       "Feeder": "CKT22-09",
       "StartTime": "2018-09-10T10:18:24",
@@ -3060,7 +3060,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "300 Material or equipment fault/failure",
+      "Cause": "Material or equipment fault/failure",
       "CustomersAffected": 1128,
       "Feeder": "CKT22-09",
       "StartTime": "2018-09-17T11:32:32",
@@ -3073,7 +3073,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 338,
       "Feeder": "CKT24-03",
       "StartTime": "2018-09-15T15:51:55",
@@ -3086,7 +3086,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 473,
       "Feeder": "CKT4-07",
       "StartTime": "2018-09-16T01:50:46",
@@ -3099,7 +3099,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1253,
       "Feeder": "CKT5-03",
       "StartTime": "2018-09-15T14:19:36",
@@ -3112,7 +3112,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 695,
       "Feeder": "CKT8-01",
       "StartTime": "2018-09-14T20:39:58",
@@ -3125,7 +3125,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 695,
       "Feeder": "CKT8-01",
       "StartTime": "2018-09-15T14:34:36",
@@ -3138,7 +3138,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 539,
       "Feeder": "CKT8-03",
       "StartTime": "2018-09-15T21:53:15",
@@ -3151,7 +3151,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 60,
       "Feeder": "CKT16-02",
       "StartTime": "2018-09-14T17:43:27",
@@ -3164,7 +3164,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 69,
       "Feeder": "CKT19-03",
       "StartTime": "2018-09-15T17:59:08",
@@ -3177,7 +3177,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 63,
       "Feeder": "CKT14-07",
       "StartTime": "2018-09-14T17:58:15",
@@ -3190,7 +3190,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 134,
       "Feeder": "CKT19-07",
       "StartTime": "2018-09-15T14:23:04",
@@ -3203,7 +3203,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 102,
       "Feeder": "CKT15-01",
       "StartTime": "2018-09-15T21:18:57",
@@ -3216,7 +3216,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 180,
       "Feeder": "CKT22-01",
       "StartTime": "2018-09-15T23:24:56",
@@ -3229,7 +3229,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 32,
       "Feeder": "CKT19-03",
       "StartTime": "2018-09-15T21:33:43",
@@ -3242,7 +3242,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 416,
       "Feeder": "CKT19-04",
       "StartTime": "2018-09-16T04:03:53",
@@ -3255,7 +3255,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 6,
       "Feeder": "CKT18-07",
       "StartTime": "2018-08-23T12:52:17",
@@ -3268,7 +3268,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "600 Small animal/bird",
+      "Cause": "Small animal/bird",
       "CustomersAffected": 171,
       "Feeder": "CKT18-07",
       "StartTime": "2018-08-23T12:33:19",
@@ -3281,7 +3281,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 75,
       "Feeder": "CKT8-01",
       "StartTime": "2018-09-14T11:08:01",
@@ -3294,7 +3294,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 40,
       "Feeder": "CKT8-04",
       "StartTime": "2018-09-14T18:39:55",
@@ -3307,7 +3307,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 53,
       "Feeder": "CKT8-06",
       "StartTime": "2018-09-14T18:31:05",
@@ -3320,7 +3320,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1309,
       "Feeder": "CKT13-04",
       "StartTime": "2018-08-21T20:37:47",
@@ -3333,7 +3333,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 46,
       "Feeder": "CKT17-01",
       "StartTime": "2018-09-15T15:19:59",
@@ -3346,7 +3346,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 170,
       "Feeder": "CKT17-01",
       "StartTime": "2018-09-16T02:28:53",
@@ -3359,7 +3359,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 51,
       "Feeder": "CKT17-03",
       "StartTime": "2018-09-15T20:46:21",
@@ -3372,7 +3372,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 39,
       "Feeder": "CKT16-02",
       "StartTime": "2018-09-15T20:59:50",
@@ -3385,7 +3385,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 91,
       "Feeder": "CKT16-02",
       "StartTime": "2018-09-16T17:14:20",
@@ -3398,7 +3398,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 22,
       "Feeder": "CKT16-02",
       "StartTime": "2018-09-14T21:53:11",
@@ -3411,7 +3411,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 121,
       "Feeder": "CKT15-03",
       "StartTime": "2018-09-15T00:34:23",
@@ -3424,7 +3424,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 329,
       "Feeder": "CKT15-03",
       "StartTime": "2018-09-15T09:08:28",
@@ -3437,7 +3437,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 588,
       "Feeder": "CKT15-03",
       "StartTime": "2018-09-15T20:35:52",
@@ -3450,7 +3450,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "999 Cause unknown",
+      "Cause": "Cause unknown",
       "CustomersAffected": 81,
       "Feeder": "CKT15-05",
       "StartTime": "2018-09-15T18:45:02",
@@ -3463,7 +3463,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 160,
       "Feeder": "CKT15-06",
       "StartTime": "2018-09-10T17:08:56",
@@ -3476,7 +3476,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 89,
       "Feeder": "CKT15-02",
       "StartTime": "2018-09-16T02:43:10",
@@ -3489,7 +3489,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 188,
       "Feeder": "CKT12-08",
       "StartTime": "2018-09-14T20:53:41",
@@ -3502,7 +3502,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 188,
       "Feeder": "CKT12-08",
       "StartTime": "2018-09-16T07:34:22",
@@ -3515,7 +3515,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 91,
       "Feeder": "CKT5-03",
       "StartTime": "2018-09-16T08:15:35",
@@ -3528,7 +3528,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 206,
       "Feeder": "CKT5-04",
       "StartTime": "2018-09-01T17:50:53",
@@ -3541,7 +3541,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 78,
       "Feeder": "CKT3-01",
       "StartTime": "2018-09-16T02:16:17",
@@ -3554,7 +3554,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 22,
       "Feeder": "CKT3-02",
       "StartTime": "2018-09-16T08:22:45",
@@ -3567,7 +3567,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 26,
       "Feeder": "CKT3-02",
       "StartTime": "2018-09-04T15:42:48",
@@ -3580,7 +3580,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 43,
       "Feeder": "CKT3-02",
       "StartTime": "2018-09-16T17:04:30",
@@ -3593,7 +3593,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 78,
       "Feeder": "CKT3-04",
       "StartTime": "2018-08-31T16:33:04",
@@ -3606,7 +3606,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 181,
       "Feeder": "CKT2-01",
       "StartTime": "2018-08-31T17:04:14",
@@ -3619,7 +3619,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 57,
       "Feeder": "CKT4-05",
       "StartTime": "2018-09-16T02:23:42",
@@ -3632,7 +3632,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 232,
       "Feeder": "CKT4-05",
       "StartTime": "2018-09-14T18:10:36",
@@ -3645,7 +3645,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 31,
       "Feeder": "CKT20-04",
       "StartTime": "2018-09-16T00:26:14",
@@ -3658,7 +3658,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 420,
       "Feeder": "CKT7-04",
       "StartTime": "2018-09-16T10:12:42",
@@ -3671,7 +3671,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "300 Material or equipment fault/failure",
+      "Cause": "Material or equipment fault/failure",
       "CustomersAffected": 62,
       "Feeder": "CKT9-08",
       "StartTime": "2018-08-23T17:46:46",
@@ -3684,7 +3684,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 551,
       "Feeder": "CKT9-08",
       "StartTime": "2018-09-16T08:25:14",
@@ -3697,7 +3697,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 89,
       "Feeder": "CKT10-02",
       "StartTime": "2018-09-13T18:15:26",
@@ -3710,7 +3710,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "300 Material or equipment fault/failure",
+      "Cause": "Material or equipment fault/failure",
       "CustomersAffected": 89,
       "Feeder": "CKT10-02",
       "StartTime": "2018-09-13T20:06:32",
@@ -3723,7 +3723,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 98,
       "Feeder": "CKT10-02",
       "StartTime": "2018-09-16T10:25:09",
@@ -3736,7 +3736,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 369,
       "Feeder": "CKT22-02",
       "StartTime": "2018-09-14T15:51:24",
@@ -3749,7 +3749,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "300 Material or equipment fault/failure",
+      "Cause": "Material or equipment fault/failure",
       "CustomersAffected": 61,
       "Feeder": "CKT22-09",
       "StartTime": "2018-09-17T10:32:33",
@@ -3762,7 +3762,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 35,
       "Feeder": "CKT11-07",
       "StartTime": "2018-09-16T10:02:35",
@@ -3775,7 +3775,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT1-01",
       "StartTime": "2018-09-15T20:35:41",
@@ -3788,7 +3788,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "790 Public, other",
+      "Cause": "Public, other",
       "CustomersAffected": 1,
       "Feeder": "CKT23-12",
       "StartTime": "2018-08-30T11:09:55",
@@ -3801,7 +3801,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "400 Decay/age of material/equipment",
+      "Cause": "Decay/age of material/equipment",
       "CustomersAffected": 1,
       "Feeder": "CKT13-01",
       "StartTime": "2018-08-23T07:26:29",
@@ -3814,7 +3814,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT16-03",
       "StartTime": "2018-09-15T13:27:00",
@@ -3827,7 +3827,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT5-04",
       "StartTime": "2018-09-16T16:08:16",
@@ -3840,7 +3840,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "300 Material or equipment fault/failure",
+      "Cause": "Material or equipment fault/failure",
       "CustomersAffected": 6,
       "Feeder": "CKT1-02",
       "StartTime": "2018-09-07T09:42:44",
@@ -3853,7 +3853,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT4-08",
       "StartTime": "2018-09-17T12:21:11",
@@ -3866,7 +3866,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "300 Material or equipment fault/failure",
+      "Cause": "Material or equipment fault/failure",
       "CustomersAffected": 1,
       "Feeder": "CKT19-06",
       "StartTime": "2018-09-16T15:52:10",
@@ -3879,7 +3879,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 2,
       "Feeder": "CKT17-01",
       "StartTime": "2018-09-15T10:50:23",
@@ -3892,7 +3892,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 3,
       "Feeder": "CKT15-03",
       "StartTime": "2018-09-16T13:13:58",
@@ -3905,7 +3905,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT15-03",
       "StartTime": "2018-09-16T18:23:51",
@@ -3918,7 +3918,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "300 Material or equipment fault/failure",
+      "Cause": "Material or equipment fault/failure",
       "CustomersAffected": 2,
       "Feeder": "CKT16-01",
       "StartTime": "2018-09-15T15:40:09",
@@ -3931,7 +3931,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT5-04",
       "StartTime": "2018-09-16T16:38:45",
@@ -3944,7 +3944,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 11,
       "Feeder": "CKT5-03",
       "StartTime": "2018-09-14T15:55:44",
@@ -3957,7 +3957,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT3-01",
       "StartTime": "2018-09-16T02:06:09",
@@ -3970,7 +3970,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT3-03",
       "StartTime": "2018-09-16T17:13:16",
@@ -3983,7 +3983,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 2,
       "Feeder": "CKT9-08",
       "StartTime": "2018-09-17T08:16:56",
@@ -3996,7 +3996,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "300 Material or equipment fault/failure",
+      "Cause": "Material or equipment fault/failure",
       "CustomersAffected": 2,
       "Feeder": "CKT7-04",
       "StartTime": "2018-08-28T09:07:59",
@@ -4009,7 +4009,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 19,
       "Feeder": "CKT4-07",
       "StartTime": "2018-09-14T15:09:27",
@@ -4022,7 +4022,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 2,
       "Feeder": "CKT4-08",
       "StartTime": "2018-08-31T19:02:19",
@@ -4035,7 +4035,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT7-04",
       "StartTime": "2018-09-15T07:23:30",
@@ -4048,7 +4048,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 1,
       "Feeder": "CKT9-07",
       "StartTime": "2018-09-15T22:31:36",
@@ -4061,7 +4061,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "430 Tree failure from overhang or dead tree without ice/snow",
+      "Cause": "Tree failure from overhang or dead tree without ice/snow",
       "CustomersAffected": 2,
       "Feeder": "CKT22-12",
       "StartTime": "2018-08-21T20:53:57",
@@ -4074,7 +4074,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "300 Material or equipment fault/failure",
+      "Cause": "Material or equipment fault/failure",
       "CustomersAffected": 1,
       "Feeder": "CKT9-08",
       "StartTime": "2018-09-17T07:54:13",
@@ -4087,7 +4087,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "300 Material or equipment fault/failure",
+      "Cause": "Material or equipment fault/failure",
       "CustomersAffected": 3,
       "Feeder": "CKT9-08",
       "StartTime": "2018-09-17T08:28:29",
@@ -4100,7 +4100,7 @@
       "type": "Point"
     },
     "properties": {
-      "Cause": "530 Flood",
+      "Cause": "Flood",
       "CustomersAffected": 3,
       "Feeder": "CKT22-04",
       "StartTime": "2018-09-17T15:24:08",

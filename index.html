@@ -11,31 +11,43 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="js/dist/MarkerCluster.css" />
     <link rel="stylesheet" href="js/dist/MarkerCluster.Default.css" />
+<div class="content-wraper">
+  <h1>Outages-Last 30 Days</h1>
 
+</div>
 
 </head>
 
 <body>
 
     <div class="container-fluid">
-        <h1>Outages-Last 30 Days</h1>
-        
+      <div class="row">
+         <div class="col-xs-12 dc-data-count dc-chart" id="data-count">
+
+             <small>
+               <span class="filter-count"></span> selected out of <span class="total-count"></span> records |
+                <a id="all" href="#">Reset All</a>
+               </span>
+             </small>
+
+         </div>
+       </div>
         <div class="row">
-            <div class="col-sm-6 ">
+            <div class="col-md-6 col-sm-12 ">
                 <div class="row">
-                    <div class="col-sm-6">
-                        <h4>Day <small><a id="year">reset</a></small></h4>
+                    <div class="col-md-5 col-sm-10">
+                        <h4>Day <small><a id="day">reset</a></small></h4>
                         <div class="dc-chart" id="chart"></div>
                     </div>
 
-                    <div class="col-sm-6" >
-                        <h4>Cause <small><a id="month" href="#">reset</a></small></h4>
+                    <div class="col-md-7 col-sm-12" >
+                        <h4>Cause <small><a id="cause" href="#">reset</a></small></h4>
                         <div class="dc-chart" id="quarter">
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-md-6 col-sm-12">
                             <h4>Hour <small><a id="hour">reset</a></small></h4>
                             <div class="dc-chart" id="hour-chart">
                             </div>
@@ -44,35 +56,40 @@
                 </div>
             </div>
 
-            <div class="col-sm-6" id="clusterMap">
+            <div class="col-md-6 col-sm-12" id="clusterMap">
                 <h4>Outage Cluster Map</h4>
                 <div id="map"></div>
             </div>
 
         </div>
-    </div>--
-
-
-    <div class="container-fluid">
+      </br>
         <div class="row">
-            <div class="col-sm-6">
-                <div id="chart1">
-                    <h3>Customers Out</h3>
-                </div>
-                <div id="rangechart"></div>
+            <div class="col-md-6 col-sm-12"><h4>Customers Out (Date Range)</h4></div>
+            <div class="col-md-6 col-sm-12"><h4>Outage Data</h4></div>
+          </div>
+        <div class="row">
+          <div class"col-md-12 col-sm-12">
+            <div class="col-md-6 col-sm-12" id="timechart">
+              <div class="row">
+                <div id="chart1"></div>
+                <div  id="rangechart"></div>
+                  </div>
             </div>
 
+            <div class="col-md-6 col-sm-12" id="outage-table" >
 
-            <div class="col-sm-6">
-                <h3>Outage Data</h3>
-                <div class="dc-data-count"><span class="filter-count"></span> selected out of <span class="total-count"></span> records.
-                    <a href="javascript:dc.filterAll(); dc.renderAll();"> Reset All</a>
-                </div>
+                <!-- <div class="dc-data-count"><span class="filter-count"></span><span class="total-count"></span>
+                    <a href="javascript:dc.filterAll(); dc.renderAll();"></a>
+                </div> -->
+
                 <table id="table" class="table table-hover table-responsive">
                 </table>
 
             </div>
-        </div>
+
+              </div>
+
+</div>
     </div>
     <script src="js/jquery-3.3.1.js"></script>
     <script type="text/javascript" src="js/d3.js"></script>

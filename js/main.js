@@ -39,37 +39,43 @@ $(document).ready(function() {
         });
 
 
+
         var facts = crossfilter(data.features);
         var all = facts.groupAll(); //reduces all rows into one.
 
+// dimensions*********************************************
         var allDim = facts.dimension(function(d) {
-            return d;
+          return d;
         });
-
-        // dates
         var dateDimension = facts.dimension(function(d) {
-            return d.date
+          return d.date;
         });
-        var dateGroup = dateDimension.group().reduceSum(function(d) {
-            return d.properties.CustomersAffected
+        var hourOfDay = facts.dimension(function(d) {
+            var hour = d.date.getHours();
+            return hour;
         });
-
-
-        // Counts per weekday
         var dayOfWeek = facts.dimension(function(d) {
             var day = d.date.getDay();
             var name = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
             return day + '.' + name[day];
         });
-        var dayOfWeekGroup = dayOfWeek.group();
-
-
-        //counts per hour
-        var hourOfDay = facts.dimension(function(d) {
-            var hour = d.date.getHours();
-            return hour;
+        var causeDimension = facts.dimension(function(d) {
+            return d.properties.Cause;
         });
+        var geomDimension = facts.dimension(function(d) {
+            //console.log(d.geometry.coordinates[0]);
+            return d.geometry;
+
+        });
+
+
+// group dimensions ****************************************
+        var dayOfWeekGroup = dayOfWeek.group();
+        var dateGroup = dateDimension.group().reduceSum(function(d) {return d.properties.CustomersAffected});
         var hourOfDayGroup = hourOfDay.group();
+        var causeGroup = causeDimension.group();
+
+
 
         var minDate = dateDimension.bottom(1)[0].date;
         var maxDate = dateDimension.top(1)[0].date;
@@ -83,14 +89,6 @@ $(document).ready(function() {
             minute: 'numeric'
         };
 
-        //outage causes
-        var causeDimension = facts.dimension(function(d) {
-            return d.properties.Cause
-        });
-        var causeGroup = causeDimension.group();
-
-
-
         var dataCount = dc.dataCount(".dc-data-count")
             .dimension(facts)
             .group(all)
@@ -100,14 +98,7 @@ $(document).ready(function() {
             });
 
 
-        var geomDimension = facts.dimension(function(d) {
-            //console.log(d.geometry.coordinates[0]);
-            return d.geometry
-
-        });
-
-
-        //table
+        //outage table****************************************
         var dataTable = dc.dataTable("#table")
             .width(900)
             .height(300)
@@ -155,15 +146,18 @@ $(document).ready(function() {
                 outages.clearLayers();
                 allDim.top(Infinity).forEach(function(d) {
                     var marker = L.marker([+d.geometry.coordinates[1], +d.geometry.coordinates[0]]);
-                    var popupContent = "<p>" + name + " " + d.date + "</p>";
-                    popupContent += "<p>" + d.properties.CustomersAffected + "</p>";
-                    popupContent += "<p>" + d.properties.Feeder + d.properties.Cause + "</p>";
+                    var popupContent = "<p><b>" + "Date: </b>" + " " + d.date.toLocaleDateString('en-US', options) + "</p>";
+                    popupContent += "<p><b>" + "#Out: </b>"+ d.properties.CustomersAffected + "</p>";
+                    popupContent += "<p><b>" + "Circuit: </b>"+ d.properties.Feeder + "</p>";
+                    popupContent += "<p><b>"+ "Cause: </b>" + d.properties.Cause + "</p>";
 
                     marker.bindPopup(popupContent);
                     outages.addLayer(marker);
                 });
                 map.addLayer(outages);
-                map.fitBounds(outages.getBounds());
+                map.fitBounds(outages.getBounds(),{
+                  padding:[20,20]
+                });
             });
 
 
@@ -190,7 +184,7 @@ $(document).ready(function() {
         //line chart**********************************
         var lineChart = dc.lineChart("#chart1")
             .width(700)
-            .height(200)
+            .height(165)
             .margins({
                 top: 10,
                 bottom: 30,
@@ -199,21 +193,14 @@ $(document).ready(function() {
             })
             .dimension(dateDimension)
             .group(dateGroup, "Customers Out")
-            // .stack(dateGroupCust,"Customers Out")
-            .yAxisLabel("Customers Out")
+            // .yAxisLabel("Customers Out")
             .elasticY(true)
             .renderHorizontalGridLines(true)
             .renderArea(true)
-            .legend(dc.legend().x(800).y(5).itemHeight(12).gap(5))
             .x(d3.time.scale().domain([minDate, maxDate]))
-            // .xyTipsOn(true)
             .brushOn(false)
-
             .rangeChart(barchart); //ties it to the chart above.
-        // .centerBar(true)
-        // .xUnits(dc.units.fp.precision(100));
-        // .barPadding(0.2)
-        // .outerPadding(0)
+
 
 
         lineChart.yAxis().ticks(5);
@@ -221,17 +208,18 @@ $(document).ready(function() {
 
         //day of week chart******************************
         var dayOfWeekChart = dc.rowChart("#chart")
-            .width(250)
-            .height(180)
+            .width(300)
+            .height(250)
             .margins({
                 top: 20,
                 left: 20,
                 right: 10,
                 bottom: 30
+
             })
             .dimension(dayOfWeek)
             .group(dayOfWeekGroup)
-            //.colors(d3.scale.category20())
+
             .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'])
             .renderLabel(true)
             .label(function(d) {
@@ -250,8 +238,10 @@ $(document).ready(function() {
 
         //pie chart-outage causes****************************
         var quarterChart = dc.pieChart("#quarter")
-            .width(180)
-            .height(180)
+            .width(380)
+            .height(250)
+            .cx(280)
+            .cy(90)
             .radius(80)
             .innerRadius(30)
             .drawPaths(true)
@@ -259,24 +249,34 @@ $(document).ready(function() {
             .colors(d3.scale.category20c())
             .transitionDuration(800)
             .dimension(causeDimension)
-            .group(causeGroup);
+            .group(causeGroup)
+            .legend(dc.legend());
+
+
+            quarterChart.on('pretransition', function(quarterChart) {
+                      quarterChart.selectAll('.dc-legend-item text')
+                          .text('')
+                        .append('tspan')
+                        .attr('font-size', 10)
+                          .text(function(d) { return d.name; });
+
+                  });
 
         //hour chart********************************
         var hourOfDayChart = dc.barChart("#hour-chart")
-            .width(550)
-            .height(200)
+            .width(725)
+            .height(150)
             .margins({
-                top: 0,
+                top: 10,
                 left: 30,
                 right: 10,
-                bottom: 50
+                bottom: 20
             })
             .dimension(hourOfDay)
             .group(hourOfDayGroup)
             .renderLabel(true)
             .elasticY(true)
             .yAxisLabel("Outages")
-            .xAxisLabel("24-Hour Time")
             .controlsUseVisibility(true)
             .label(function(d) {
                 return d.value;
@@ -290,13 +290,9 @@ $(document).ready(function() {
             })
             .brushOn(true);
 
-
-
-
         // handle axis functions separately
         hourOfDayChart.xAxis().ticks(24);
         hourOfDayChart.yAxis().ticks(6);
-
 
 
         // register handlers
@@ -305,18 +301,18 @@ $(document).ready(function() {
             dc.renderAll();
         });
 
-        d3.selectAll('a#year').on('click', function() {
+        d3.selectAll('a#day').on('click', function() {
             dayOfWeekChart.filterAll();
             dc.redrawAll();
         });
 
-        d3.selectAll('a#month').on('click', function() {
+        d3.selectAll('a#cause').on('click', function() {
             quarterChart.filterAll();
             dc.redrawAll();
         });
 
-        d3.selectAll('a#day').on('click', function() {
-            dayChart.filterAll();
+        d3.selectAll('a#hour').on('click', function() {
+            hourOfDayChart.filterAll();
             dc.redrawAll();
         });
 

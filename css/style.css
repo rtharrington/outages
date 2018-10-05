@@ -1,5 +1,5 @@
 
-div {
+ div {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -9,6 +9,12 @@ div#chart svg g g.axis g.tick text{
 	font-size: 16pt;
 }
 
+h1{
+	background-color: #1F77B4;
+	max-width: 100%;
+	margin: 0 auto;
+	color: white;
+}
 
 
 .infoHeader{
@@ -19,9 +25,9 @@ div#chart svg g g.axis g.tick text{
 }
 #map {
       width:100%;
-      height:400px;
+      height:475px;
 			padding: 0;
-			border: 1px solid gray;
+
     }
 
 	#clusterMap {
@@ -29,11 +35,19 @@ div#chart svg g g.axis g.tick text{
 		    }
 
 
+#chart,#quarter,#hour-chart,#map,#timechart,#outage-table{
+	border-radius: 10px;
+	background-color: white;
+	padding: 5px;
+	border: 1px solid lightgray;
+}
+
 		body, html {
 			height: 100%;
 			margin: 0;
 			padding: 0;
 			font-family:  "PT Sans", sans-serif;
+			background-color: #eeeeee;
 		}
 
 		.dc-data-count small {
@@ -51,6 +65,7 @@ div#chart svg g g.axis g.tick text{
 
 		.dc-chart .axis text{
 		  font-size: 12px;
+
 		}
 
 		text {
@@ -66,9 +81,10 @@ div#chart svg g g.axis g.tick text{
 	}
 
 	table{
-	 height:300px;              // <-- Select the height of the table
+	 height:228px;              // <-- Select the height of the table
 	 display: -moz-groupbox;
 	 font-size: 12px;
+	 margin-left: 2px;
 
 	}
 	tbody{
@@ -78,13 +94,12 @@ div#chart svg g g.axis g.tick text{
 	  position: absolute;
 	}
 
-#outageData{
-    margin-left: 20px;
-
-}
+  .leaflet-popup-content p {
+      margin: 0.2em 0;
+  }
 
 #control-row {
   padding-bottom: 20px;
 }
 
-		a { cursor: pointer }
+a { cursor: pointer }
