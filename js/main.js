@@ -1,7 +1,11 @@
 $(document).ready(function() {
 
-    var map = L.map('map').setView([35.162, -80.489], 7);
+    var map = L.map('map',{zoomControl: false}).setView([35.162, -80.489], 9);
     var outages = new L.markerClusterGroup();
+
+
+    var zoomHome = L.Control.zoomHome();
+                  zoomHome.addTo(map);
 
     L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
@@ -183,6 +187,7 @@ $(document).ready(function() {
 
         //line chart**********************************
         var lineChart = dc.lineChart("#chart1")
+
             .width(700)
             .height(165)
             .margins({
@@ -193,12 +198,12 @@ $(document).ready(function() {
             })
             .dimension(dateDimension)
             .group(dateGroup, "Customers Out")
-            // .yAxisLabel("Customers Out")
             .elasticY(true)
             .renderHorizontalGridLines(true)
             .renderArea(true)
             .x(d3.time.scale().domain([minDate, maxDate]))
             .brushOn(false)
+            .mouseZoomable(true)
             .rangeChart(barchart); //ties it to the chart above.
 
 
@@ -209,7 +214,7 @@ $(document).ready(function() {
         //day of week chart******************************
         var dayOfWeekChart = dc.rowChart("#chart")
             .width(300)
-            .height(250)
+            .height(300)
             .margins({
                 top: 20,
                 left: 20,
@@ -239,7 +244,7 @@ $(document).ready(function() {
         //pie chart-outage causes****************************
         var quarterChart = dc.pieChart("#quarter")
             .width(380)
-            .height(250)
+            .height(300)
             .cx(280)
             .cy(90)
             .radius(80)
@@ -265,7 +270,7 @@ $(document).ready(function() {
         //hour chart********************************
         var hourOfDayChart = dc.barChart("#hour-chart")
             .width(725)
-            .height(150)
+            .height(125)
             .margins({
                 top: 10,
                 left: 30,
@@ -292,7 +297,7 @@ $(document).ready(function() {
 
         // handle axis functions separately
         hourOfDayChart.xAxis().ticks(24);
-        hourOfDayChart.yAxis().ticks(6);
+        hourOfDayChart.yAxis().ticks(5);
 
 
         // register handlers
