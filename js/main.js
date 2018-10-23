@@ -4,15 +4,33 @@ $(document).ready(function() {
     var outages = new L.markerClusterGroup();
 
 
+
     var zoomHome = L.Control.zoomHome();
                   zoomHome.addTo(map);
+
+
 
     L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
     }).addTo(map);
 
 
+    $.getJSON("data/sa.geojson",function(data){
+		var myStyle = {
+	    "color": "#5c5c5c",
+      "dashArray": "10 5",
+	    "weight": 2,
+      "fill": false
+	    // "opacity": 0.65
 
+
+			};
+	// L.geoJson function is used to parse geojson file and load on to map
+	L.geoJson(data,{
+		style: myStyle
+  }).addTo(map);
+
+	});
 
     d3.json("data/outages30Day.js", function(error, data) {
 
