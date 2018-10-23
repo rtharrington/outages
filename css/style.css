@@ -72,27 +72,13 @@ h1{
 		  font-size: 16px;
 		}
 
+    #outage-table {
+      display: block;
+      max-height: 200px;
+      overflow-y: auto;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
 
-
-		tr {
-	width: 100%;
-	display: inline-table;
-	table-layout: fixed;
-	}
-
-	table{
-	 height:228px;              // <-- Select the height of the table
-	 display: -moz-groupbox;
-	 font-size: 12px;
-	 margin-left: 2px;
-
-	}
-	tbody{
-	  overflow-y: scroll;
-	  height: 200px;            //  <-- Select the height of the body
-	  width: 100%;
-	  position: absolute;
-	}
 
   .leaflet-popup-content p {
       margin: 0.2em 0;
